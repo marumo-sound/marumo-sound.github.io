@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>まるも@portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap&subset=japanese" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -13,6 +15,7 @@
     <div class="left-wrapper">
       <img class='logo' src="./logo.jpg">
       <p>まるも</p>
+      <p>プログラマ</p>
       <p>ページ内リンク</p>
       <p>ページ内リンク</p>
       <p>ページ内リンク</p>
@@ -23,108 +26,94 @@
       </div>
       </div>
     <div class="contents-wrapper">
-      <div class="container">
-        <div class="first-view">
-          <p class="heading">portfolio</p>
-          <p class="fas fa-sort-down first-view-icon"></p>
+      <div class="first-view">
+        <p class="heading">portfolio</p>
+        <p class="fas fa-sort-down first-view-icon"></p>
+      </div>
+      <div class="contents">
+        <p class="heading">profile</p>
+        <div class="profile">
+          <p class="profile-text">
+            まるもと申します。
+            音楽が好きで音響関係の学校を卒業し、PAとして働いておりましたがプログラミングの魅力に目覚め1年間勤めたのちにシステム開発系の企業に転職いたしました。
+            得意な言語はjavaで、ツール類はeclipseを用いてjavaで書いています。
+            近年はweb系の技術に興味を持ち、html/css/JavaScriptなどを学習しております。
+            今後はweb系のサーバサイドの技術を習得し、マイクロサービスの開発手法やセキュリティ関係や負荷分散などの学習を進めたいと考えています。
+          </p>
         </div>
       </div>
-        <div class="container">
-          <div class="profile">
-            <p class="heading">profile</p>
-            <p>まるも( ツイッターのlink入れる )と申します。</p>
-            <p>音楽が好きで音響関係の学校を卒業し、PAとして働いておりましたがプログラミングの魅力に目覚め、1年間勤めたのちにシステム開発系の企業に転職いたしました。</p>
-            <p>得意な言語はjavaで、ツール類はeclipseを用いてjavaで書いています。</p>
-            <p>近年はweb系の技術に興味を持ち、html/css/JavaScriptなどを学習しております。</p>
-            <p>今後はweb系のサーバサイドの技術を習得し、マイクロサービスの開発手法やセキュリティ関係、負荷分散などの学習を進めたいと考えています。</p>
-          </div>
-      </div>
-      <div class="container">
+      <div class="contents">
+        <p class="heading">skill</p>
         <div class="skills">
-          <p class="heading">skill</p>
-          <p>業務経験の有無</p>
-          <p>評価基準　→ 「学習中」、「初歩的な操作が可能」、「問題なく操作が可能」、「パフォーマンス改善が可能」</p>
-          <div class="skill">
-            <p>フロントエンド</p>
-            <p>html/css 学習中</p>
-            <p>JavaScript 学習中</p>
-            <p>jQuery 学習中</p>
-            <p>scss/sass 学習中</p>
-          </div>
-          <div class="skill">
-            <p>バックエンド</p>
-            <p>Java 業務経験あり</p>
-            <p>Ruby 学習中</p>
-            <p></p>
-          </div>
-          <div class="skill">
-            <p>DB</p>
-            <p>RDBMS</p>
-            <p>Oracle 業務経験あり</p>
-            <p>Mysql 業務経験あり</p>
-            <p>DB2 業務経験あり</p>
-            <p>NoSQL</p>
-            <p>Redis 業務経験あり</p>
-          </div>
-          <div class="skill">
-            <p>サーバ</p>
-            <p>OS</p>
-            <p>RHL 業務経験あり</p>
-            <p>CentOS 学習中</p>
-            <p>WEBサーバ</p>
-            <p>apache 業務経験あり</p>
-            <p>nginx 学習中</p>
-            <p>IIS 業務経験あり</p>
-            <p>APサーバ</p>
-            <p>tomcat 業務経験あり</p>
-            <p>weblogic 業務経験あり</p>
-            <p>jboss 業務経験あり</p>
-            <p>was 業務経験あり</p>
-          </div>
-          <div class="skill">
-            <p>FW</p>
-            <p>Spring 業務経験あり</p>
-            <p>DBFlute 業務経験あり</p>
-            <p>MyBatis 業務経験あり</p>
-            <p>seaser2 業務経験あり</p>
-          </div>
-          <div class="skill">
-              <p>IoT/ストリーミング処理</p>
-              <p>apache spark 学習中</p>
-              <p>Raspberry Pi 学習中(ブレッドボードを使って音をビープ音を鳴らす程度)</p>
-          </div>
-          <div class="skill">
-              <p>セキュリティ</p>
-              <p>oauth2.0 学習中</p>
-              <p>keycloak 学習中</p>
-          </div>
-          <div class="skill">
-              <p>インフラ</p>
-              <p>AWS 業務経験あり</p>
-          </div>
-          <div class="skill">
-              <p>その他</p>
-              <p>vi 業務経験あり</p>
-          </div>
+        <table>
+            <tr>
+              <th>種別</th><th>技術名</th><th>業務経験</th><th>初歩的な操作が可能<br>簡単な設定が可能</th><th>問題なく操作が可能<br>一般的な設定が可能</th><th>パフォーマンス改善が可能</th>
+            </tr>
+            <tr>
+              <th rowspan="4">フロントエンド</th><td>html/css</td><td></td><td>○</td><td></td><td></td>
+            </tr>
+            <tr>
+              <td>JavaScript</td><td></td><td>○</td><td></td><td></td>
+            </tr>
+            <tr>
+              <td>jQuery</td><td></td><td>○</td><td></td><td></td>
+            </tr>
+            <tr>
+              <td>scss/sass</td><td></td><td>○</td><td></td><td></td>
+            </tr>
+            <tr>
+              <th rowspan="4">バックエンド</th><td>java</td><td>○</td><td></td><td>○</td><td></td>
+            </tr>
+            <tr>
+              <td>Spring</td><td>○</td><td>○</td><td></td><td></td>
+            </tr>
+            <tr>
+              <td>Ruby</td><td></td><td>○</td><td></td><td></td>
+            </tr>
+            <tr>
+              <td>apache spark</td><td></td><td>○</td><td></td><td></td>
+            </tr>
+            <tr>
+              <th rowspan="3">DB</th><td>Oracle</td><td>○</td><td></td><td>○</td><td></td>
+            </tr>
+            <tr>
+              <td>Mysql</td><td>○</td><td></td><td>○</td><td></td>
+            </tr>
+            <tr>
+              <td>Redis</td><td>○</td><td>○</td><td></td><td></td>
+            </tr>
+            <tr>
+              <th rowspan="3">ミドルウェア</th><td>apache</td><td>○</td><td></td><td>○</td><td></td>
+            </tr>
+            <tr>
+              <td>nginx</td><td></td><td></td><td>○</td><td></td>
+            </tr>
+            <tr>
+              <td>tomcat</td><td>○</td><td>○</td><td></td><td></td>
+            </tr>
+            <tr>
+              <th>インフラ</th><td>AWS</td><td>○</td><td>○</td><td></td><td></td>
+            </tr>
+            <tr>
+              <th>セキュリティ</th><td>keycloak</td><td></td><td>○</td><td></td><td></td>
+            </tr>
+            <tr>
+              <th>IoT</th><td>Raspberry Pi</td><td></td><td>○<br>(音を鳴らす程度)</td><td></td><td></td>
+            </tr>
+          </table>
         </div>
       </div>
-      <div class="container">
+      <div class="contents">
+        <p class="heading">work</p>
         <div class="works">
-          <p class="heading">work</p>
-          <p>xxx</p>
-          <p>xxx</p>
-          <p>xxx</p>
-          <p>xxx</p>
-          <p>xxx</p>
-          <p>xxx</p>
-          <p>xxx</p>
-          <p>xxx</p>
-          <p>xxx</p>
-          <p>xxx</p>
+          <div class="work">
+            <img src="./work1.jpg">
+            <p>ポートフォリオ</p>
+            <p>link</p>
+          </div>
         </div>
       </div>
       <footer>
-  
       </footer>
     </div>
     <script type="text/javascript" src="script.js"></script>
