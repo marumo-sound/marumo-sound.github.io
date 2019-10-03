@@ -1,22 +1,20 @@
 /* --- 共通 --- */
 * {
-    box-sizing: border-box;
-}
-
-.clear {
-    clear: left;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
   max-width: 1920px;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 }
 
 /* 左メニュー */
-#left-wrapper {
+.left-wrapper {
   height: 100%;
   width: auto;
+  top: 0px;
+  left: 0px;
   padding: 20px 100px;
   border-right: 1px solid lightgrey;
   position :fixed;
@@ -26,7 +24,7 @@ body {
   width: 200px;
 }
 
-#link-wrapper {
+.link-wrapper {
   margin-top: 100px;
 }
 
@@ -44,23 +42,41 @@ body {
 }
 
 /* 右側のコンテンツ */
-#contents-wrapper {
+.contents-wrapper {
+  top: 0px;
   margin-left: 400px;
 }
 
 .container {
-  padding: 20px 100px;
-  min-height: 200px;
-}
-
-#self-introduction {
   border-bottom: 1px solid lightgrey;
 }
 
-#skill {
-  border-bottom: 1px solid lightgrey;
+.heading {
+  font-size: 50px;
+  text-align:center;
 }
 
-#work {
-  border-bottom: 1px solid lightgrey;
+.first-view {
+  padding-top: 200px;
+  position:relative;
+  height: 100vh;
 }
+
+.first-view-icon {
+  position:absolute;
+  font-size: 40px;
+  left: 48%;
+  bottom: 10%;
+  align-content: center;
+  color: #BF5114;
+}
+
+.profile, .skills, .works{
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+footer {
+  height: 25px;
+  background-color: #BF5114;
+  }
+
