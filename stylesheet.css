@@ -51,17 +51,17 @@ a {
 .name {
   padding-top: 30px;
   font-size: 30px;
-  color: gray;
+  color: dimgray;
 }
 
 .job-name {
   padding-bottom: 40px;
-  color: gray;
-  
+  color: dimgray;
 }
 
 .link {
   padding-top: 20px;
+  color: dimgray;
 }
 
 /* 右側のコンテンツ */
@@ -106,25 +106,17 @@ a {
 .profile-text {
   padding: 0% 30%;
   line-height: 30px;
-}
-
-.flex-list {
-  display: flex;
-  flex-wrap: wrap;
-  
-}
-.flex-list li {
-  flex: auto;
-  width: 50%;
-  
+  letter-spacing: 4px;
+  color: dimgray;
 }
 
 table {
+  color: dimgray;
   margin: 0 20px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  border:1px solid #666;
+  border:1px solid lightgray;
   border-spacing: 0;
   overflow:hidden;
 }
@@ -132,12 +124,12 @@ table {
 td,th {
   width: 5%;
   text-align: center;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid lightgray;
   padding: 10px;
 }
 
 th {
-  background:#f6f6f6;
+  background-color:#fff8f8;
 }
 
 table tbody tr:last-child th,
@@ -145,17 +137,22 @@ table tbody tr:last-child td {
   border-bottom: none;
 }
 
-th + th,td {
-  border-left: 1px solid #666666;
+th + th, td {
+  border-left: 1px solid lightgray;
 }
 
 .work {
+  color: dimgray;
   text-align: center;
 }
 
 .work img {
   width: 300px;
   border: 1px solid lightgray;
+}
+
+.work p {
+  padding-top: 10px;
 }
 
 footer {
