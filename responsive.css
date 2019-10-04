@@ -1,56 +1,36 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
-    .lesson {
-      width: 50%;
-      margin-bottom: 50px;
-    }
-  
-    footer {
-      text-align: center;
-    }
-  
-    .top-wrapper h1 {
-      font-size: 32px;
-    }
-  
-    .heading h2 {
-      font-size: 20px;
-    }
-  }
-
-
-  
-  /* スマホ向けレイアウト */
-  @media all and (max-width: 670px) {
-    .lesson {
-      width: 100%;
-    }
-  
-    .btn {
-      width: 100%;
-    }
-  
-    .facebook {
-      margin-bottom: 10px;
-    }
-    
-    .top-wrapper {
-      text-align: left;
-    }
-  
-    .header-right {
+    .left-wrapper {
       display: none;
     }
-    
-    .header-right-menu-icon {
+
+    .contents-wrapper {
+      margin-left: 0px;
+    }
+
+    .profile-text {
+      padding: 0% 20%;
+      line-height: 25px;
+      letter-spacing: 4px;
+    }
+
+    .profile, .skills, .works {
+      font-size: 15px;
+    }
+
+    .heading {
+      font-size: 35px;
+      padding-top: 15%;
+    }
+
+    .first-view .sns{
+      margin-top: 100px;
+      text-align: center;
       display: block;
     }
-    
-    .top-wrapper h1 {
-      font-size: 24px;
-    }
-  
-    .top-wrapper p {
-      font-size: 14px;
+
+    .work img {
+      width: 200px;
     }
   }
+}
