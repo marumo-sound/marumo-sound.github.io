@@ -10,39 +10,45 @@
     <link rel="stylesheet" href="responsive.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/f3a8679c95.js" crossorigin="anonymous"></script>
+    <!-- twitter-card -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@marumo_sound" />
+    <meta property="og:url" content="https://marumo-sound.github.io/"/>
+    <meta property="og:title" content="まるも@portfolio"/>
+    <meta property="og:description" content="welcome"/>
+    <meta property="og:image" content="https://raw.githubusercontent.com/marumo-sound/marumo-sound.github.io/master/logo.jpg"/>
   </head>
   <body>
     <div class="left-wrapper">
       <img class='logo' src="./logo.jpg">
-      <p>まるも</p>
-      <p>プログラマ</p>
-      <p>ページ内リンク</p>
-      <p>ページ内リンク</p>
-      <p>ページ内リンク</p>
-      <p>ページ内リンク</p>
-      <div class="link-wrapper">
+      <div class="sns">
         <a href="https://twitter.com/marumo_sound"><span class="fab fa-twitter twitter"></a>
         <a href="https://github.com/marumo-sound/marumo-sound.github.io"><span class="fab fa-github github"></a>
       </div>
+      <p class="name">まるも</p>
+      <p class="job-name">programmer</p>
+      <p class="link"><a href="#profile">profile</a></p>
+      <p class="link"><a href="#skills">skills</a></p>
+      <p class="link"><a href="#works">works</a></p>
       </div>
     <div class="contents-wrapper">
       <div class="first-view">
         <p class="heading">portfolio</p>
         <p class="fas fa-sort-down first-view-icon"></p>
       </div>
-      <div class="contents">
+      <div id="profile" class="contents">
         <p class="heading">profile</p>
         <div class="profile">
           <p class="profile-text">
             まるもと申します。
             音楽が好きで音響関係の学校を卒業し、PAとして働いておりましたがプログラミングの魅力に目覚め1年間勤めたのちにシステム開発系の企業に転職いたしました。
-            得意な言語はjavaで、ツール類はeclipseを用いてjavaで書いています。
+            得意な言語はjavaで、eclipseを用いて開発しております。
             近年はweb系の技術に興味を持ち、html/css/JavaScriptなどを学習しております。
             今後はweb系のサーバサイドの技術を習得し、マイクロサービスの開発手法やセキュリティ関係や負荷分散などの学習を進めたいと考えています。
           </p>
         </div>
       </div>
-      <div class="contents">
+      <div id="skills" class="contents">
         <p class="heading">skill</p>
         <div class="skills">
         <table>
@@ -103,7 +109,7 @@
           </table>
         </div>
       </div>
-      <div class="contents">
+      <div id="works" class="contents">
         <p class="heading">work</p>
         <div class="works">
           <div class="work">

@@ -9,23 +9,30 @@ body {
   font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: gray;
+  transition: all .3s;
+}
+
 /* 左メニュー */
 .left-wrapper {
   height: 100%;
   width: auto;
   top: 0px;
   left: 0px;
-  padding: 20px 100px;
+  padding: 0px 100px;
   border-right: 1px solid lightgrey;
   position :fixed;
 }
 
 .logo {
   width: 200px;
+  padding-top: 100px;
 }
 
-.link-wrapper {
-  margin-top: 100px;
+.sns {
+  margin-top: 30px;
 }
 
 .twitter {
@@ -39,6 +46,22 @@ body {
 
 .twitter, .github {
   font-size: 25px;
+}
+
+.name {
+  padding-top: 30px;
+  font-size: 30px;
+  color: gray;
+}
+
+.job-name {
+  padding-bottom: 40px;
+  color: gray;
+  
+}
+
+.link {
+  padding-top: 20px;
 }
 
 /* 右側のコンテンツ */
@@ -78,7 +101,6 @@ body {
 
 .profile, .skills, .works {
   padding-top: 80px;
-  
 }
 
 .profile-text {
