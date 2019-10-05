@@ -1,4 +1,16 @@
+/* --- WEBフォント指定 --- */
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap&subset=japanese');
+
 /* --- 共通 --- */
+html {
+  visibility: hidden;
+}
+
+html.wf-active {
+  visibility: visible;
+}
+
 * {
   margin: 0px;
   box-sizing: border-box;
@@ -32,7 +44,7 @@ a {
 }
 
 .sns {
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .twitter {
